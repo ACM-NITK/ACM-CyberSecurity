@@ -1,0 +1,11 @@
+Case study :
+1.
+By adding firewalls to prevemt incoming ICMP packets, the system's performance is degraded because it's a demanding task to examine every packet of data.
+Also while using the SYN Cookies, the server reject all the TCP optins, thus it is not compatible with TCP.
+So, the newer TCP Cookie Transactions (TCPCT) standard is designed to overcome these shortcomings of SYN cookies. 
+
+2.
+Along with SYN Cookies, RST Cookies can also be used.Here, the server sends back an incorrect SYN+ACK packet back to client. If the client is legitimate, they should respond with a reset packet and can continue connecting.
+Besides, network firewalls, web application firewalls, and load balancers can be used to defend against application-layer attacks (such as Slowloris).
+
+

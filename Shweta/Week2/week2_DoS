@@ -1,0 +1,13 @@
+1.MyDoom attack - 
+One of the most vicious DoS attacks first sighted on 26th January 2004.
+2.Transmission:	
+Mydoom can be transmitted through email or file sharing with Kazaa. To be transmitted through Kazaa, the user must download the worm from an infected computer on the Kazaa network.
+3. How was it conducted :
+The virus was sent through emails to the targeted computers and then at a preset time, all infected machines began a coordinated attack on www.sco.com.
+4.Why was it conducted :
+As SCO was becoming popular day by day, the attack was primirily conducted to cause economic harm and defame the organisation.
+5. How can it be defended :
+DoS attacks may be executed via ICMP packets that sends error messages on the internet.
+It can be prevented using a firewall. 
+Firewalls can be used to stop simple DoS attacks by blocking all traffic coming from an attacker by identifying his IP.
+By configuring the firewall to refuse ICMP packets from outside the network would protect the network from DoS attacks.
