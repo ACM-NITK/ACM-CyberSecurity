@@ -1,0 +1,5 @@
+Part 1
+
+I've chosen Estonia cyberwar.
+Most of the attacks that had any influence on the general public were distributed denial of service type attacks ranging from single individuals using various methods like ping floods to expensive rentals of botnets usually used for spam distribution. Spamming of bigger news portals commentaries and defacement including that of the Estonian reforment party website also occurred.
+To prevent this type of attacks repeated ping commands if encountered can be chosen to be ignored .

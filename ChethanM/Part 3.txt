@@ -1,0 +1,10 @@
+case 3
+
+\firewalls can do very little to prevent ddos attacks. If the attacker's ip address could be found then packages from this is can be blocked that is for dos attacks.
+
+\Trojan horses are used to create botnets. the attackers use Trojan virus to install mailcious code in many unaware computers . When conducting the attack all the infected systems send junk packages to the target IP.
+
+\SYN flood can be prevented in many ways 
+Filtering
+Syn cookies
+Syn cache
