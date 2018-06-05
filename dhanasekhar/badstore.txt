@@ -1,0 +1,30 @@
+Question 1.
+Role
+
+Question 2.
+16(including test item)
+
+Question 3.
+Upload price list
+
+Question 4.
+4111 1111 1111 1111
+
+Question 5.
+fred
+
+Question 6.
+SSOid
+
+Question 7.
+CartID
+
+Question 8.
+email address
+hashed password
+name
+
+Question 9.
+3
+
+

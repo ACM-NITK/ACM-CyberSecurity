@@ -1,0 +1,19 @@
+Defending Against Specific Denial of Service Attacks
+1.	A DDoS was claimed to be carried out by a hacker who goes by the name Restless (Flux0Flux) on Fortnite - Battle Royale servers on 12 April, 2018. Fortnite is an online multiplayer Battle Royale themed game developed by Epic Games.
+2.	How the attack was carried out is not very clear as both the hacker and the company didn’t give out much information, but people have speculated that memcached servers were utilised to amplify the packets being sent to the game servers. The servers are distributed around the globe and aren’t designed to handle heavy requests. Their only jobs include player data validation and relaying it to various other players in the same session. 
+ 
+
+3.	Since the attack didn’t require very large bandwidth the use of DDoS mitigation technologies provided by Cloudflare or Akamai could have easily prevented the attack. Also these networks can mitigate attacks amounting to even Terabytes of data per second.
+
+
+
+
+
+
+
+
+
+Case Study
+1.	Firewalls aren’t much good when it comes to DoS mitigation but still ip filtering and blocking communication on ports which don’t require internet access can help cover up lose ends. Eg. A SQL server running on some port on a local network also visible on internet may become the vulnerability which a hacker may target. The hacker may Dos attack and send large no of login requests to completely block legitimate access to the SQL server. This can be prevented by blocking the port and its visibility outside the local network.
+2.	A pc with trojan horse installed provides a window to the hacker to illegally modify the pc. In case of a Distributed DoS the infected PC may be used in order to generate extra bandwidth to attack the target defined by the hacker, thus the word distributed. Large number of such smaller PC on the internet together constitute a large DDoS. So protecting devices against trojan horses on the global level will drastically reduce the number and intensity of DoS attacks.
+3.	SYN cookies, DoS cookies, Stack tweaking

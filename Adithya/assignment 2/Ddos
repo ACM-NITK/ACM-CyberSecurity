@@ -1,0 +1,24 @@
+
+ One of the latest Dos attacks was the Miria botnet attack on September 2017.It was sucha  huge attack that the malware responsible is still running in some areas around the world.
+
+ It used malware to infect linux running machines and turning them into botnets, where each of the machines were in complete control of the attackers. 
+ Mirai (japanese for 'the future') botnet was used to stage a large number of Ddos attacks bringing down huge sites in america from governmental sites to privates ones like reddit, spotify etc.
+ 
+ Apparetly mirai was named after a 2011 anime series Mirai Nikki (damn weebs).
+   
+ Mirai worked by scanning the internet for IP addresses of Internet of things(IoT) devices.
+ Mirai then identifies vulnerable IoT devices using a table of more than 60 common factory default usernames and passwords, and logs into them to infect them with the Mirai malware.
+ Infected devices will continue to function normally, except for occasional sluggishness,and an increased use of bandwidth. Nothing out of the ordninary.
+ Upon infection Mirai will identify "competing" malware and remove them from memory and block remote administration ports.(way to remove competition).
+ 
+Uses:
+ 
+On 21 October 2016 multiple major DDoS attacks in DNS services of DNS service provider Dyn occurred using Mirai malware installed on a large number of IoT devices, resulting in the inaccessibility of several high-profile websites such as GitHub, Twitter, Reddit, Netflix, Airbnb and many others. The attribution of the Dyn attack to the Mirai botnet was originally reported by Level 3 Communications.
+
+Mirai has also been used in an attack on Liberia's Internet infrastructure in November 2016.
+
+The Security Affairs website was taken offline for more than an hour only twenty minutes after it had published an article about Mirai Okiru on 14 January 2018.
+
+Prevention:
+One of the major ways to prevent this was to change login usernames and passwords of IoT devices, and as for terminals, to install anti-virus softwares to scan for malware and trojan horses that might be carrying mirai induced source code.
+

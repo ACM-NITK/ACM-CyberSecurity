@@ -1,0 +1,19 @@
+1. 
+a.Blocking all ICMP packets while a good measure may prevent some system admins from troublehsooting the network.
+   
+b.SYN cookies help block SYN floods but also take up a lot of unessecary space to do the cryptographic hasing required for the cookies, hence it might trouble normal operation of the server.
+   
+2.Extra measure such as not allowing induvidual routers to broadcast an packets sent to their way, also checking of packets for source and destination IP addresses so that land attacks or teardrop attacks can be prevented. 
+
+Answer these questions:
+
+1.A firewall can be used to block ICMP packets, unregistered UDP packets whihc try to attack usually a single port to block the server. Any attackers trying to SYN flood the system would alos face the firewall's constant monitering of all incoming packets for valid source and destination IP addresses. 
+ Also a firewall provides basic protection against viruses, trojan horses, etc. Although nowhere near the intenstiy of a dedicated anti-virus,it can provide decent protection against major malware.
+
+2. Trojan horse attacks are usually viruses disguised as harmless executable files. Preventing such files from gaining access to terminals would help destroy one of the major way used by hackers  infect computers and hence create botnets, where these so called botnets are used to execute DDoS attacks on huge servers. Hence protecting of computers against trojan horses helps stop such huge attacks.
+
+3. The 3 methods are:
+ SYN-cookies: One of the most commonly used methods, here the SYN+ACK sent by server to client has a cryptographically hashed cookie sent along with it, and once the client send the ACK back the server can check for the cookie and henceverify the client. This method is usually resource eating as it has to do cryptographic hasing.
+ Micro-blocks: Another method where the server actually stores only a small buffer size when it recieves a SYN request and only increases it when required. But this is not that effective as by simply increasing the number of requests sent, the attacker can bypass this method of protection.
+ RST-cookies: Here when recieving a SYN request, the server sends a wrong SYN+ACK back, so the client has to send a RST packet telling the server the packet is wrong. Once the server recieves this message, it has verified that the cleint is legitimate and sends a proper SYN+ACK to continue the communication.
+  
