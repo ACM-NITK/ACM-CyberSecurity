@@ -1,0 +1,10 @@
+Part 2
+
+case 1: Runa has configured the firewall to completely block all the icmp packages. This is not right. Although many ddos attacks like ping of death,Smurf attack etc,it has many important features; some are useful for troubleshooting, while some are essential for a network to function correctly.some of the functions which must be allowed are
+echo request (as long as it's from our system)and echo reply(as long as it's from the internet)
+Fragmentation required/packet too large: these are required for proper tcp working(MTU adjustment), without which data would be silently lost.
+traceroute : it allows us to troubleshoot network connection errors between two hosts(by sending time limit exceeded message).
+All these should be allowed given that they do not exceed certain limit. Firewall should be configured to block for example more than 3000 pings are received.
+case 2
+
+As evident using SYN cookies can lead to SYN flood attack. To prevent this some work around can be implemented if a lot of syn ack packets are not received. Then the sending IP can be located,if it's been spoofed then it can be blocked .

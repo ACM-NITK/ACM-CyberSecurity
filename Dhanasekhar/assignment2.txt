@@ -1,0 +1,37 @@
+2007 Cyberattacks on Estonia
+1.
+A series of cyber attacks began 27 April 2007 that swamped websites of Estonian organizations, including Estonian parliament, banks, ministries, newspapers and broadcasters, amid the country's disagreement with Russia about the relocation of the Bronze Soldier of Tallinn, an elaborate Soviet-era grave marker, as well as war graves in Tallinn.
+2.
+ Most of the attacks that had any influence on the general public were distributed denial of service type attacks ranging from single individuals using various methods like ping floods to expensive rentals of botnets usually used for spam distribution. 
+3.
+Botnets could have been prevented by having  updated virus scanners on all machines .
+Having updated OS and software patches would have proved to be an effective defense against ping floods.
+
+Case Study
+1.
+Yes, the network is still vulnerable to certain DDoS attacks.
+The firewall is configured only to block any incoming ICMP packets, but not to identify any incorrect source (forged or spoofed) IP address which could result in untraceable DDoS attacks.
+The router might not  be configured so that they do not receive or forward Direct Broadcast Traffic which might lead to Smurf attacks.
+2.
+The firm can ensure that the routers and firewalls are configured to forward IP packets only if those packets have the correct Source IP Address for the network.
+Configuring all the systems (routers, workstations, servers, etc.) so that they do not receive or forward Directed Broadcast traffic(prevents IP Smurf attacks).
+Keeping operating system and software patches updated to avoid server breakdown when a ping of large size is received (ping of death).
+Having an organizational policy stating that employees cannot download anything onto their systems unless the download has been cleared by the IT staff.
+
+ Question 1.
+Blacklisting IP Addresses – The firewall can be modified in a way that blocks any communication if the request is from a blacklisted IP Address.
+Firewalls can be configured to forward IP packets only if those packets have the correct Source IP Address for the network.
+Firewall can be configured to block any incoming ICMP packets.
+ Question 2.
+A Trojan Horse is a malicious computer program masquerading itself as useful or otherwise non-malicious.  Once executed, Trojan Horses often install a backdoor, allowing for remote access of the infected machine. This allows an attacker to perform various criminal tasks including use of the machine as a zombie within a botnet to perform distributed denial-of-service (DDoS) attacks. It is estimated that 15% of Trojan Horse-infected machines being members of botnets around the world,  thus protection against Trojans will definitely reduce DDoS attacks.
+ Question 3.
+Methods to prevent SYN flood attacks:
+1.SYN Cookies
+2.RST Cookies
+3.Stack tweaking
+
+
+
+
+
+

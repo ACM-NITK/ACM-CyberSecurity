@@ -1,0 +1,16 @@
+Answers :
+1.
+Firewalls can be used to stop simple DoS attacks by blocking all traffic coming from an attacker by identifying his IP.
+All messages entering or leaving the intranet pass through the firewall, which examines each message and blocks those that do not meet the specified security criteria.
+
+2.
+A Trojan Horse uses the user’s computer as part of the Botnet when performing distributed denial of service attacks.
+Therefore by preventing Trojan Horse attacks, DoS attacks can also be prevented.
+
+3.
+SYN attack works by flooding the victim with incomplete SYN messages. This causes the user's computer to allocate memory resources that are never used.
+Methods for protecting against SYN flood attacks :
+1) SYN Cookies :It sends a cookie with its SYN+ACK packet and if a matching cookie is returned with ACK packet from the client, it will establish a complete connection.
+2) RST Cookies :The server sends back an incorrect SYN+ACK packet back to client. If the client is legitimate, they should respond with a reset packet and can continue connecting.
+3) Stack Tweaking : Here, administrators can tweak TCP stacks to mitigate the effect of SYN flood attacks. Being a complicated method, it is not used much.
+
