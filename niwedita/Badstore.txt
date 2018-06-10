@@ -1,0 +1,22 @@
+1) Role
+
+2) 16
+
+3) View existing price list
+   Upload price list
+
+4) 5500-0000-0000-0004
+
+5) fred
+
+6) SSOid
+
+7) CartId
+
+8) Expiration timeout
+   E-mail address 
+   MD5 hash of password 
+   Full name 
+   Role
+
+9) 3
