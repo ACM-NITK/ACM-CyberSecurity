@@ -1,0 +1,37 @@
+BADSTORE PROJECT
+
+Q1. One of the BadStore pages has a hidden form field that establishes a new user's privilege level. What is the name of this field?
+A1. role (which has value U for users)
+
+Q2. How many items for purchase are in BadStore's database? 
+A2. 16 (By typing (*'--') in the Search Box)
+
+Q3. What operations are suppliers permitted to do once they have logged into the "suppliers only" area?
+A3. 1.Uplaoding price lists
+    2.Viewing the pricing file
+
+Q4. Log in as joe@supplier.com --- this is possible in a variety of ways, including SQL injection. Then look at his previous orders and answer the question: What credit card number did he use to make a purchase of $46.95? Multiple answers are possible, but we will accept all of them.
+A4. 
+5500 0000 0000 0004
+4111 1111 1111 1111
+
+Q5. Get administrator privileges and then use the admin action to look at the user database. There are two users whose emails have the form XXX@whole.biz; what is the XXX portion of either of the two users? 
+A5. fred
+
+
+Q6. What is the key of the session cookie?
+A6. SSOid
+
+Q7. What is the key of the cookie used for the cart?
+A7. CartID
+    (1529143818%3A1%3A12.5%3A1003)
+
+Q8. BadStore's session cookie format is poorly designed because it is uses a predictable structure. In particular, it is an encoded string (with a URL-encoded newline at the end) of the form XXX:YYY:ZZZ:U. What are the XXX, YYY, and ZZZ portions of this string?
+A8. The decoded string of the cookie : abc@xyz.com:900150983cd24fb0d6963f7d28e17f72:abc:U
+    XXX: email, YYY: MD5 Hash of the password, ZZZ: name, U:role(i.e user)
+
+Q9. BadStore's cart cookie is also an encoded string with a predictable structure XXX:YYY:... etc., and it probably contains information it shouldn't. Which field of the decoded string could an attacker change to give himself a discount on an item's price?
+A9. The decoded string of the CartId cookie: 1529143818:1:12.5:1003
+    Since here the 3rd field is the price of the item selected, that can be changed to give a discount on the item.
+    Thus, answer is 3.
+
